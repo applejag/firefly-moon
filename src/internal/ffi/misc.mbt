@@ -15,6 +15,9 @@ pub fn set_seed(seed : UInt) = "misc" "set_seed"
 pub fn get_random() -> UInt = "misc" "get_random"
 
 ///|
+pub fn get_time() -> Int64 = "misc" "get_time"
+
+///|
 /// Get name of the device.
 pub fn get_name(peer : Int, buf : UInt) -> Int = "misc" "get_name"
 
