@@ -77,6 +77,11 @@ pub fn get_random() -> UInt {
 }
 
 ///|
+pub fn get_time() -> Duration {
+  { us: @ffi.get_time() }
+}
+
+///|
 /// Get name of the device.
 pub fn get_name(peer : Peer) -> Utf8 {
   let arr = FixedArray::make(16, Byte::default())

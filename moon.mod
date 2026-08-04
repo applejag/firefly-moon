@@ -18,6 +18,4 @@ description = "MoonBit SDK for making Firefly Zero games"
 
 preferred_target = "wasm"
 
-options(
-  source: "src",
-)
+source = "src"
