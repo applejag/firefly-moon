@@ -2,8 +2,9 @@ import {
   "firefly/firefly/audio",
 }
 
+pkgtype(kind: "executable")
+
 options(
-  "is-main": true,
   link: {
     "wasm": {
       "export-memory-name": "memory",

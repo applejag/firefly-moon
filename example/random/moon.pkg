@@ -4,8 +4,9 @@ import {
   "firefly/firefly/random",
 }
 
+pkgtype(kind: "executable")
+
 options(
-  "is-main": true,
   link: {
     "wasm": {
       "export-memory-name": "memory",
